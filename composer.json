@@ -1,7 +1,7 @@
 {
-  "name": "yunpian-sms/yunpian-sms",
+  "name": "kollway/yunpian-sms",
   "description": "The Sms Of YunPian.",
-  "keywords": ["sms", "yunpian"],
+  "keywords": ["laravel", "yunpian"],
   "license": "MIT",
   "type": "library",
   "require": {
