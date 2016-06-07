@@ -1,0 +1,16 @@
+{
+  "name": "yunpian-sms/yunpian-sms",
+  "description": "The Sms Of YunPian.",
+  "keywords": ["sms", "yunpian"],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\yunSms\\": "src/YunSms"
+    }
+  }
+
+}
