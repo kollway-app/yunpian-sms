@@ -21,6 +21,9 @@ class YunSmsClient {
     }
 
     public function doSendSMS($phone, $smsText) {
+        if (empty($phone) || empty($smsText)) {
+            return false;
+        }
         $smsText = sprintf('%s%s', $this->sign, $smsText);
         $encoded_text = urlencode("$smsText");
         $post_string = sprintf('apikey=%s&text=%s&mobile=%s', $this->apikey, $encoded_text, urlencode($phone));
